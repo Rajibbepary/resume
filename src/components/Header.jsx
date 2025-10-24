@@ -1,7 +1,9 @@
+import assets from "../assets/assets";
+
 export default function Header() {
     return (
         <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-            <img src="./assets/profile-img.png" alt="" className="rounded-full w-32" />
+            <img src={assets.user_profile} alt="" className="rounded-full w-32 h-32" />
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
                 Hi! I&apos;m Eliana Jade
                 <img src="./assets/hand-icon.png" alt="" className="w-6 mb-1" />
